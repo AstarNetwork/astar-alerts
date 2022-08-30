@@ -15,7 +15,10 @@ These configurations can be provided either as JSON
 ```javascript
 {
     {
-      "arsw": {
+      "wastar": {
+        "name": "Wrapped ASTAR",
+        "symbol": "WASTAR",
+        "decimal": 18,
         "address": "0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720",
         "abi": []
       }
