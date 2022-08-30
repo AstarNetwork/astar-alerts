@@ -14,15 +14,15 @@ These configurations can be provided either as JSON
 
 ```javascript
 {
-    {
-      "wastar": {
-        "name": "Wrapped ASTAR",
-        "symbol": "WASTAR",
-        "decimal": 18,
-        "address": "0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720",
-        "abi": []
-      }
-    },
+	{
+	  "wastar": {
+		"name": "Wrapped ASTAR",
+		"symbol": "WASTAR",
+		"decimal": 18,
+		"address": "0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720",
+		"abi": []
+	  }
+	},
 	"endpoints": [
 		"wss://evm.astar.network"
 	],
@@ -31,6 +31,7 @@ These configurations can be provided either as JSON
 		// if provided, report all events to a slack channel.
 		"slack": {
 			"channel": "2_network_token_alerts",
+			"hook": ""
 		},
 
 		// enabling this will print all reports to console as well.
