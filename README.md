@@ -17,7 +17,7 @@ These configurations can be provided either as JSON
     {
       "arsw": {
         "address": "0x3d4DCFD2B483549527f7611ccFecb40b47d0c17b",
-        "abi": ""
+        "abi": []
       }
     },
 	"endpoints": [
