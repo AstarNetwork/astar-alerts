@@ -30,13 +30,8 @@ These configurations can be provided either as JSON
 			"channel": "https://evm.astar.network",
 		},
 
-		// if provided, writes all reports to the file at the given path. The file is appended to
-		"fs": {
-			"path": "./out1.log"
-		},
-
 		// enabling this will print all reports to console as well.
-		"console": {},
+		"console": true,
 	}
 }
 
