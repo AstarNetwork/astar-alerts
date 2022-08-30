@@ -27,7 +27,7 @@ These configurations can be provided either as JSON
 	"reporters": {
 		// if provided, report all events to a slack channel.
 		"slack": {
-			"channel": "https://evm.astar.network",
+			"channel": "2_network_token_alerts",
 		},
 
 		// enabling this will print all reports to console as well.
